@@ -399,3 +399,8 @@ db.createCollection("users1", {
         }
     }
 })
+
+// Indexes in mongoDB
+// Index are used for faster queries and for faster data retrival and also for huge data
+db.users.createIndex({name:1})
+
