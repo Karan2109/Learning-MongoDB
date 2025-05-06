@@ -404,3 +404,6 @@ db.createCollection("users1", {
 // Index are used for faster queries and for faster data retrival and also for huge data
 db.users.createIndex({name:1})
 
+// Advance topics
+
+
