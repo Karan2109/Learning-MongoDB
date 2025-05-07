@@ -405,5 +405,4 @@ db.createCollection("users1", {
 db.users.createIndex({name:1})
 
 // Advance topics
-// first commit
 
